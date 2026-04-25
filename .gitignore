@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments 
+venv/
+env/
+.venv/
+
+# OS generated files (supaya file tersembunyi dari Windows nggak ikut masuk)
+.DS_Store
+Thumbs.db
+desktop.ini
