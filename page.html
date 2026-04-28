@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Tes Cache</title>
+    <style>
+        body { font-family: monospace; background-color: #2b2b2b; color: #a9b7c6; padding: 30px; }
+        h2 { color: #cc7832; }
+    </style>
+</head>
+<body>
+    <h2>Pengujian Cache Proxy</h2>
+    <p>Halaman ini dikhususkan untuk menguji sistem caching.</p>
+    <ul>
+        <li><b>Request 1:</b> Proxy akan mencetak log CACHE MISS, mengambil file ini dari Web Server, lalu menyimpannya di folder cache lokal.</li>
+        <li><b>Request 2:</b> Proxy akan mencetak log CACHE HIT dan langsung mengirim salinan file ini ke Client tanpa menghubungi Web Server lagi.</li>
+    </ul>
+</body>
+</html>
